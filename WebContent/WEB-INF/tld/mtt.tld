@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+    <tlib-version>1.0</tlib-version><!-- 代表标签库的版本号 -->
+    <jsp-version>1.2</jsp-version><!-- 代表jsp的版本 -->
+    <short-name>mtt</short-name><!-- 你的标签库的简称 -->
+    <uri>http://localhost:8080</uri><!-- 你标签库的引用uri -->
+
+    <tag>
+        <name>Problemsss</name><!-- 你定义的标签的名称 -->
+        <tag-class>main.ProblemsssTagSupport</tag-class><!-- 对应的标签处理程序：包名+类名 -->
+        <body-content>scriptless</body-content><!-- 标签体内容的格式 -->
+
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+
+        <attribute>
+            <name>src</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
